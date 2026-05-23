@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Menú</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f8f3ef;
+}
+
+/* HEADER */
+
+header{
+    background:#6b1d45;
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:32px;
+    font-weight:bold;
+}
+
+/* CONTENEDOR */
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+/* TARJETAS */
+
+.card{
+    background:white;
+    width:280px;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+/* IMAGEN */
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+/* TEXTO */
+
+.card-content{
+    padding:20px;
+}
+
+.card h2{
+    margin:0;
+    color:#6b1d45;
+}
+
+.price{
+    font-size:24px;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+/* BOTÓN */
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#6b1d45;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#8d2b5d;
+}
+
+/* VOLVER */
+
+.back{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.back a{
+    text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+MENÚ DE POSTRES 🍰
+</header>
+
+<div class="container">
+
+<!-- TARJETA 1 -->
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200">
+
+<div class="card-content">
+
+<h2>Cheesecake</h2>
+
+<p>Delicioso cheesecake artesanal.</p>
+
+<div class="price">
+$7
+</div>
+
+<button>Comprar</button>
+
+</div>
+
+</div>
+
+<!-- TARJETA 2 -->
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=1200">
+
+<div class="card-content">
+
+<h2>Cupcakes</h2>
+
+<p>Suaves y esponjosos.</p>
+
+<div class="price">
+$5
+</div>
+
+<button>Comprar</button>
+
+</div>
+
+</div>
+
+<!-- TARJETA 3 -->
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1200">
+<div class="card-content">
+
+<h2>Donas</h2>
+
+<p>Con chocolate y toppings.</p>
+
+<div class="price">
+$4
+</div>
+
+<button>Comprar</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- BOTÓN VOLVER -->
+
+<div class="back">
+
+<a href="Pasteles, IDK.html">
+<button style="width:200px;">
+Volver al inicio
+</button>
+</a>
+
+</div>
+
+</body>
+</html>
