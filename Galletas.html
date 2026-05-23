@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Galletas</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f8f3ef;
+}
+
+header{
+    background:#6b1d45;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    width:300px;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h2{
+    color:#6b1d45;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#6b1d45;
+    color:white;
+}
+
+.back{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🍪 galletas</h1>
+</header>
+
+<section class="products">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9UfaRoKp5skS13ANjLKV6jybeANL9xbDDqA&s">
+<div class="card-content">
+<h2>🍪 Choco Chips</h2>
+<p>Galletas suaves con chispas de chocolate.</p>
+<button>$6</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://i.redd.it/1aiv0mia9gya1.jpg">
+<div class="card-content">
+<h2>🍫 Double Chocolate</h2>
+<p>Chocolate intenso en cada mordida.</p>
+<button>$6</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmoyMIyxWEJ8UAg0Jlp2JzhcIj6bbEmElbRg&s">
+<div class="card-content">
+<h2>🥜 Peanut Butter</h2>
+<p>Mantequilla de maní cremosa y dulce.</p>
+<button>$5</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFGAEBhgyPCGAKTMiZecn_kIf8cPFygiQQGQ&s">
+<div class="card-content">
+<h2>🌈 Rainbow Cookies</h2>
+<p>Coloridas galletas cubiertas de dulces.</p>
+<button>$5.5</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://thumbs.dreamstime.com/b/delicious-stacked-cinnamon-sugar-cookies-plate-363064076.jpg">
+<div class="card-content">
+<h2>🍯 Cinnamon Sugar</h2>
+<p>Canela suave con azúcar caramelizada.</p>
+<button>$4.5</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcTw8VDSqpLKRDM5dmOid1AVUpiXY2BL93A&s">
+<div class="card-content">
+<h2>🍮 Dulce de Leche</h2>
+<p>Rellenas de dulce de leche cremoso.</p>
+<button>$5</button>
+</div>
+</div>
+
+</section>
+
+<div class="back">
+<a href="Catalogo.html">
+<button style="width:200px;">Volver</button>
+</a>
+</div>
+
+</body>
+</html>
